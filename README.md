@@ -1,17 +1,36 @@
-# clima_app
+# Aplicación para buscar clima en diferentes ciudades del mundo
 
-A new Flutter project.
+## Herramientas de desarrollo
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
-## Getting Started
+### Estructura de archivos
+```bash 
+lib/
+├── Models/
+│   └── clima.dart
+├── Screens/
+│   └── pantalla_Clima.dart
+├── Services/
+│   └── clima_service.dart
+├── Widgets/
+│   └── targeta_dato.dart
+└── main.dart
+```
 
-This project is a starting point for a Flutter application.
+### Clonar el repositorio
+#### HTTP
+```bash
+git clone https://github.com/luisguzmanruiz/app_clima_API.git
+```
 
-A few resources to get you started if this is your first Flutter project:
+#### SSH
+```bash
+git clone git@github.com:luisguzmanruiz/app_clima_API.git
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Correr la app en un movil
+Mientras tengas conectado el dispositivo movil a la PC/Laptop, podras correr este comando para visualizarla en tu celular
+```bash
+flutter run
+```
